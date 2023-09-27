@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<NoWarn>1701;1702;1591</NoWarn>
+		<DocumentationFile>Project1.Web.Core.xml</DocumentationFile>
+	</PropertyGroup>
+
+
+
+	<ItemGroup>
+		<None Remove="Project1.Web.Core.xml" />
+	</ItemGroup>
+
+
+
+	<ItemGroup>
+	  <PackageReference Include="Furion" Version="4.8.8.44" />
+	  <PackageReference Include="Furion.Extras.ObjectMapper.Mapster" Version="4.8.8.44" />
+	  <PackageReference Include="SqlSugarCore" Version="5.1.4.107" />
+	</ItemGroup>
+
+</Project>
